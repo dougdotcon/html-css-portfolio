@@ -173,3 +173,20 @@ a:hover {
         margin: 10px 0;
     }
 }
+
+#profile-picture {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#profile-picture img {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Para uma imagem circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar a imagem */
+    transition: transform 0.3s ease;
+}
+
+#profile-picture img:hover {
+    transform: scale(1.05); /* Leve zoom ao passar o mouse */
+}
